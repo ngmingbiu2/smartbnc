@@ -23,23 +23,30 @@
 			font-size: 36px;
 		}
 		nav {
-			background-color: #E8E8E8;
-			padding: 10px;
+			background-color: #F5F5F5;
+			padding: 20px;
 			display: flex;
-			justify-content: center;
+			flex-direction: column;
 			align-items: center;
+			height: 100vh;
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 200px;
 		}
 		nav ul {
 			list-style: none;
 			margin: 0;
 			padding: 0;
 			display: flex;
-		}
+			flex-direction: column;
+			align-items: center;
+			}
 		nav li {
-			margin-right: 20px;
+			margin-bottom: 20px;
 		}
 		nav a {
-			color: #0072C6;
+			color: #333333;
 			text-decoration: none;
 			font-family: Arial, sans-serif;
 			font-size: 16px;
@@ -52,8 +59,7 @@
 			color: #FFFFFF;
 		}
 		main {
-			max-width: 800px;
-			margin: 0 auto;
+			margin-left: 220px;
 			padding: 20px;
 		}
 		h2 {
@@ -73,9 +79,24 @@
 			font-family: Arial, sans-serif;
 			font-size:16px;
 			line-height: 1.5;
+			margin-bottom: 20px;
 		}
 		button:hover {
 			background-color: #005EA2;
+		}
+		.redirect-button {
+			background-color: #FF6600;
+			color: #FFFFFF;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor:pointer;
+			font-family: Arial, sans-serif;
+			font-size:16px;
+			line-height: 1.5;
+		}
+		.redirect-button:hover {
+			background-color: #CC4D00;
 		}
 	</style>
 </head>
@@ -86,16 +107,14 @@
 	<nav>
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Careers</a></li>
-			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">Employees</a></li>
+			<li><a href="#">Departments</a></li>			
+			<button onclick="window.location.href='https://www.youtube.com/channel/UCJS_n7sdwZbVCeTwfLrm2dw'" style="background-color: #FF0000; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">Request Leave</button>
 		</ul>
 	</nav>
 	<main>
 		<h2>Welcome to the HR Department</h2>
 		<p>Our HR department is committed to supporting our employees and ensuring a positive work environment. Please feel free to contact us with any questions or concerns you may have.</p>
-		
-		<button onclick="window.location.href='https://apps.powerapps.com/play/e/ab61ef21-a3a1-e1a0-8bd3-aa92cb13c896/a/cae31422-aa51-4cf5-b7cd-3567cb58ae05?tenantId=2109ce83-7de4-4471-91ff-2053f90a1fd9'" style="background-color: #FF0000; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">Request Leave</button>
 	</main>
 </body>
 </html>
