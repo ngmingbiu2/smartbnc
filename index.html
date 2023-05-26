@@ -22,6 +22,35 @@
 			margin: 0;
 			font-size: 36px;
 		}
+		nav {
+			background-color: #E8E8E8;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		nav li {
+			margin-right: 20px;
+		}
+		nav a {
+			color: #0072C6;
+			text-decoration: none;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		nav a:hover {
+			background-color: #0072C6;
+			color: #FFFFFF;
+		}
 		main {
 			max-width: 800px;
 			margin: 0 auto;
@@ -54,14 +83,19 @@
 	<header>
 		<h1>HR Department</h1>
 	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
 	<main>
 		<h2>Welcome to the HR Department</h2>
 		<p>Our HR department is committed to supporting our employees and ensuring a positive work environment. Please feel free to contact us with any questions or concerns you may have.</p>
 		
-
-      
-      
-      <button onclick="window.location.href='https://www.youtube.com/channel/UCJS_n7sdwZbVCeTwfLrm2dw'" style="background-color: #FF0000; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">Request Leave</button>
+		<button onclick="window.location.href='https://www.youtube.com/channel/UCJS_n7sdwZbVCeTwfLrm2dw'" style="background-color: #FF0000; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">Request Leave</button>
 	</main>
 </body>
 </html>
