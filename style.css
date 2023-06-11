@@ -15,10 +15,16 @@ html {
   }
   
   header {
-    background-color: #0072C6;
-    color: #FFFFFF;
+    background-image: url("https://img.freepik.com/free-vector/modern-flowing-colorful-wave-banner-background_1035-19861.jpg?w=2000&t=st=1686380832~exp=1686381432~hmac=7611c942322e8f371e6d3c70d61087a377db06a27cf4e42fe517602f2d66baf5");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 100%;
+    color: #1e1683e0;
     padding: 20px;
     text-align: center;
+    text-shadow: 2px 2px 2px rgb(43, 42, 42);
+    box-shadow: 0px 4px 8px rgba(8, 55, 87, 0.2);
   }
   
   h1 {
@@ -27,6 +33,7 @@ html {
   }
   
   nav {
+    background-image: linear-gradient(to right, rgb(165, 217, 249) , rgb(255, 255, 255));
     background-color: #F5F5F5;
     padding: 20px;
     display: flex;
@@ -56,7 +63,7 @@ html {
     color: #333333;
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     padding: 10px;
     border-radius: 5px;
@@ -74,7 +81,10 @@ html {
   }
   
   h2 {
-    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 20px;
+    font-size: 48px;
     margin-top: 30px;
   }
   
@@ -122,6 +132,8 @@ html {
   }
   
   #home-page {
+    color: rgb(241, 238, 238);
+    text-shadow: 2px 2px 2px rgb(47, 47, 47);
     display: none;
   }
   
@@ -133,12 +145,17 @@ html {
     background-image: url("https://genesishrsolutions.com/wp-content/uploads/2020/05/strategic-human-resource-management-examples-and-tools-genesishr-solutions.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: Top;
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: rgb(241, 238, 238);
+    text-shadow: 2px 2px 2px rgb(47, 47, 47);
+    padding: 20px 100px;
+    font-size: 24px;
   }
   
   #employees-page {
     height: 100%;
-    background-image: url("https://assets.website-files.com/5ed478bc8a31271e7c764194/60410dd70e24c02e85b7da3d_gradient-bg-home.png");
+    background-image: url("hrDiagram.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -146,7 +163,7 @@ html {
   
   #departments-page {
     height: 100%;
-    background-image: url("https://assets.website-files.com/5ed478bc8a31271e7c764194/60410dd70e24c02e85b7da3d_gradient-bg-home.png");
+    background-image: url("hrDiagram.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,7 +171,7 @@ html {
   
   #iframe-page {
     height: 100%;
-    background-image: url("https://assets.website-files.com/5ed478bc8a31271e7c764194/60410dd70e24c02e85b7da3d_gradient-bg-home.png");
+    background-image: url("hrDiagram.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
